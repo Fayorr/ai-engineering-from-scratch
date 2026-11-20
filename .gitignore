@@ -58,8 +58,13 @@ mlruns/
 .gstack/
 .lesson-screen/
 
-.link-cache.json
-.claude/
+.link-cache.js
+
+
+# model checkpoint files
+.pt
+.pth
+.safetensors
 
 # Keep local Claude settings ignored, but publish the portable tutor mirrors
 # and their runtime references so a fresh clone can discover them.
